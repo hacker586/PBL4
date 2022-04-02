@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PBL_4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+        <nav class="navbar navbar-dark bg-dark nav-top fixed-top">
+            <div class="container-fluid">
+                <h3 class="font-top" >Break-Time</h3>
+              </div>
+          </nav>
+
+        <div class="container">
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <img class=" d-grid gap-2 col-6 mx-auto" src="break1.png" alt="">
+            <h1 class="centre">Welcome to break reminder...!</h1>
+            <button class="btn btn-success btn-lg" id="start" type="button">START</button>
+            <!-- <button class="btn btn-warning btn-lg" id="reset" type="button"> RESET</button> -->
+            <button class="btn btn-danger btn-lg" id="stop" type="button">STOP</button>
+            <h4 class="centre">To RESET the timer kindly refresh the page or <a href="index.html"> <i> Click here</i> </a></h4>
+          </div>
+          <div class="box">
+            <h1 class="margin-top" id="timer">1200</h1>
+            <h1 id="statement">Seconds Remaining...</h1>
+            <audio src="Censor Bleep.mp3"></audio>
+          </div>
+          
+    </div>
+        <nav class="navbar navbar-inverse fixed-bottom bg-dark nav-below">
+            <div class="container-fluid">
+                <h3 class="font-below"> Created by Sagar, Akhilesh and Balkrishna with ❤️</h3>
+            </div>
+        </nav>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

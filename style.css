@@ -1,0 +1,40 @@
+.container{
+    background-color: #212529;
+    border-radius: 25px;
+    margin: 70px 0 70px 0;
+    color: white;
+}
+img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.centre{
+    margin: auto;
+}
+.font-top{
+    color: white;
+    margin: auto;
+}
+.nav-top{
+    border-radius: 0px 0px 50px 50px;
+}
+.box{
+    height: 200px;
+    color: whitesmoke;
+    text-align: center;
+}
+.font-below{
+    color: white;
+    margin: auto;
+}
+.nav-below{
+    position: static;
+    border-radius: 50px 50px 0px 0px;
+}
+.btn{
+    margin: 10px 0;
+
+}
+.margin-top{
+    margin-top: 32px;
+}
