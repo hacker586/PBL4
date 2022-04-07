@@ -1,3 +1,6 @@
+body{
+    background-image: url(bg.png);
+}
 .container{
     background-color: #212529;
     border-radius: 25px;
@@ -19,7 +22,7 @@ img{
     border-radius: 0px 0px 50px 50px;
 }
 .box{
-    height: 170px;
+    height: 120px;
     color: whitesmoke;
     text-align: center;
 }
