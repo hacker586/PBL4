@@ -9,7 +9,7 @@ document.getElementById("start").onclick=function(){
     interval();
 };
 document.getElementById("stop").onclick=function(){
-    alternater = 0;
+    alternater = -1;
     interval();
 };
 // function for 1200 seconds
