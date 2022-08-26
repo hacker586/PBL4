@@ -7,6 +7,9 @@ body{
     margin: 70px 0 70px 0;
     color: white;
 }
+.radius{
+    border-radius: 25%;
+}
 img{
     margin-top: 20px;
     border-radius: 10px;
